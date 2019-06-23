@@ -12,8 +12,9 @@ class QuotesSpider(scrapy.Spider):
         quote_items = response.css("div.quote")
         for quote in quote_items:
             yield {
-                'text': quote.css("span.text::text").extract_first(),
-                'author': quote.css("small.author::text").extract_first(),
+                # TODO: find the matching css classes for text and author
+                'text': quote.css("").extract_first(),
+                'author': quote.css("").extract_first(),
             }
         next_page_url = response.css("li.next > a::attr(href)").extract_first()
         if next_page_url is not None:
