@@ -1,4 +1,4 @@
-# Web scraping excercise with Scrapy
+# Static website scraping excercise with Scrapy
 
 This is a Scrapy project to scrape quotes from famous people from http://quotes.toscrape.com.
 This example was adopted from ([here](https://github.com/scrapinghub/spidyquotes)). 
