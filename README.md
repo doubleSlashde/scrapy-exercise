@@ -23,6 +23,11 @@ Or if you already have a working Python installation with pip as package manager
 You can run a spider using the `scrapy crawl` command, such as:
 
     $ scrapy crawl quotes_spider
+    
+Clone the project and change to the project directory
+
+    $ git clone https://github.com/doubleSlashde/scrapy-exercise.git
+    $ cd scrapy-exercise
 
 If you want to save the scraped data to a file, you can pass the `-o` option:
     
