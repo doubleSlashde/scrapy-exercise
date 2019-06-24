@@ -4,7 +4,7 @@ This is a Scrapy project to scrape quotes from famous people from http://quotes.
 This example was adopted from ([here](https://github.com/scrapinghub/spidyquotes)). 
 This project is only meant for educational purposes.
 
-## Running the spiders
+## Prequisites
 
 First, a working Python3 installation is required for running Scrapy.
 Please use the Miniconda Python 3.7 installation for your OS, it can be found ([here](https://docs.conda.io/en/latest/miniconda.html))
@@ -17,6 +17,8 @@ Prior to running any Scrapy spider, Scrapy has to be installed with the followin
 Or if you already have a working Python installation with pip as package manager:
 
     $ pip install scrapy
+
+## Running the spiders
 
 You can run a spider using the `scrapy crawl` command, such as:
 
