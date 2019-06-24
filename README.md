@@ -1,15 +1,16 @@
 # Web scraping excercise with Scrapy
 
 This is a Scrapy project to scrape quotes from famous people from http://quotes.toscrape.com.
-This example was adopted from ([here](https://github.com/scrapinghub/spidyquotes)).
+This example was adopted from ([here](https://github.com/scrapinghub/spidyquotes)). 
 This project is only meant for educational purposes.
 
 ## Running the spiders
 
 First, a working Python3 installation is required for running Scrapy.
 Please use the Miniconda Python 3.7 installation for your OS, it can be found ([here](https://docs.conda.io/en/latest/miniconda.html))
+After Miniconda has been installed successfully, go to the start menu and open 'Anaconda Promt' as administrator.
 
-For running Scrapy spiders, Scrapy has to be installed with the following command:
+Prior to running any Scrapy spider, Scrapy has to be installed with the following command:
     
     $ conda install -c conda-forge scrapy 
 
